@@ -1,7 +1,7 @@
 lib = "faraday"
 lib_file = File.expand_path("../lib/#{lib}.rb", __FILE__)
 File.read(lib_file) =~ /\bVERSION\s*=\s*["'](.+?)["']/
-version = $1
+version = '0.8.4.314
 
 Gem::Specification.new do |spec|
   spec.specification_version = 2 if spec.respond_to? :specification_version=
